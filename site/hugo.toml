@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
+languageCode = "fi-fi"
+languageLang = "fi"
 title = "Oskar Thun"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
