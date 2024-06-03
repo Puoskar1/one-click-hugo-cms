@@ -4,13 +4,13 @@ describe("empty spec", () => {
   });
 
   it("opens the index page", () => {
-    cy.get("h1").contains("Great coffee with a conscience");
+    cy.get("h1").contains("Tulossa");
   });
 
   it("navigates to the product page", () => {
     cy.get('a[href="/products"]').eq(0).click();
     cy.url().should("include", "/products");
-    cy.get("h1").contains(/Our Coffee/i);
+    cy.get("h1").contains(/Palvelumme/i);
   });
 
   it("navigates to the values page", () => {
@@ -29,6 +29,6 @@ describe("empty spec", () => {
 describe("validate blog", () => {
   it("should have only 3 blog posts by default", () => {
     cy.visit("/post");
-    cy.get("ul#blog-list li").should("have.length", 3);
+    cy.get("ul#blog-list li").should("have.length", 4);
   });
 });
