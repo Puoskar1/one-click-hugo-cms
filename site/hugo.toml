@@ -1,7 +1,9 @@
 baseurl = "/"
-languageCode = "fi-fi"
+defaultContentLanguage = "fi"
+languageCode = "fi-FI"
 languageLang = "fi"
 title = "Oskar Thun"
+subtitle = "Nettisivuja jo vuodesta 2014"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
